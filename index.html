@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Eventos y Promociones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="img/Logotipo de MC-fotor-bg-remover-20240729135650.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <img src="img/Logotipo de MC-fotor-bg-remover-20240729135650.png" alt="Logo de Mercadito Paloma" class="header__img">
+            <h1 class="header__title">Mercadito Paloma</h1>
+        </div>
+    </header>
+    <main class="presentacion__container">
+        <section class="presentacion">
+            <h2>Entérate de los eventos y promociones que realizamos a lo largo del mes. ¡No te lo puedes perder!</h2>
+        </section>
+    </main>
+    <section id="calendar" class="calendar">
+        <div class="container">
+            <h2>Calendario de Eventos y Ofertas</h2>
+            <div id="calendar"></div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+</body>
+</html>
+
